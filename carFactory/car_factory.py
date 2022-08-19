@@ -1,7 +1,7 @@
 from urllib.parse import SplitResult
-from car import Car
-from engine import Engine, WilloughbyEngine, CapuletEngine, SternmanEngine
-from battery import Battery, NubbinBattery, SpindlerBattery
+from car.car import Car
+from car.engine import WilloughbyEngine, CapuletEngine, SternmanEngine
+from car.battery import NubbinBattery, SpindlerBattery
 
 class CarFactory():
     def __init__(self):
